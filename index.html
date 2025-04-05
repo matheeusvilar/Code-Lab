@@ -3,12 +3,20 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="variables.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=favorite"
+    />
     <title>CODE-LAB</title>
   </head>
   <body>
-    <header>
+    <header class="header_main">
       <div class="tittle">
-        <h1>CodeLab</h1>
+        <h1>
+          <h1><span class="code">Code</span><span class="lab">Lab</span></h1>
+        </h1>
       </div>
       <div class="search">
         <form action="">
@@ -20,18 +28,24 @@
     <main>
       <section>
         <article class="main_card">
-          <span class="data">17 de ago, 2024</span>
+          <div class="card_data">
+            <span class="data">17 de ago, 2024</span>
+            <span class="material-symbols-outlined">favorite</span>
+          </div>
+
           <h2>O que é linguagem de programção? Conheça as principais</h2>
           <p>
             Uma das mais populares vertentes da tecnologia da informaçã, área de
             programação que segue tendo muita demanda de trabalho justamente
             pela velocidade com que dispositivos tecnológicos vêm avançando.
           </p>
-          <button class="like-button"></button>
         </article>
 
         <article class="card">
-          <span class="data">12 de jul, 2024</span>
+          <div class="card_data">
+            <span class="data">17 de ago, 2024</span>
+            <span class="material-symbols-outlined">favorite</span>
+          </div>
           <h2>Githubagora permite fazer login sem precisar de senha</h2>
           <p>
             O GitHub anunciou nesta quarta-feira (12) o acesso a partir das
@@ -39,11 +53,13 @@
             disponivel em uma versão beta pública e pode substituir a
             auteneticação em dois fatores.
           </p>
-          <button class="like-button"></button>
         </article>
 
         <article class="card">
-          <span class="data">21 de jun, 2024</span>
+          <div class="card_data">
+            <span class="data">17 de ago, 2024</span>
+            <span class="material-symbols-outlined">favorite</span>
+          </div>
           <h2>Por que os hiperlinks são azuis em sua maioria?</h2>
           <p>
             Quem navega na internet, certamente já percebeu que ela conta com
@@ -51,7 +67,6 @@
             opções podemos mencionar oshiperlinks - uma palavra ou termo
             clicável que direciona o leitor.
           </p>
-          <button class="like-button"></button>
         </article>
       </section>
     </main>

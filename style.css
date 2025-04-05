@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  background-color: #17171a; /* ou a cor que você está usando no fundo */
+  margin: 0;
+  padding: 0;
+}
+
+.code {
+  color: #e07b67; /* Laranja */
+  font-family: var(--font-titulo);
+}
+
+.lab {
+  color: white;
+  font-family: var(--font-titulo);
+}
+
+.header_main {
+  background-color: #252529;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 20px;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.search {
+  max-width: 600px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+input {
+  background-color: #2b2a2e;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 5px;
+  width: 100%;
+  max-width: 600px;
+  font-family: var(--font-corpo);
+}
+
+main {
+  background-color: #17171a;
+}
+
+h2 {
+  color: #ffffff;
+  font-family: var(--font-titulo);
+  font-size: 15px;
+}
+
+p {
+  font-family: var(--font-corpo);
+  color: #afabb6;
+  font-size: 15px;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 50px;
+  gap: 20px;
+}
+.main_card {
+  max-width: 800px;
+  border-radius: 10px;
+  border: 1px solid #e07b67;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  gap: 10px;
+}
+
+span {
+  color: #e07b67;
+  font-family: var(--font-corpo);
+}
+
+.card {
+  max-width: 800px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  gap: 10px;
+}
+
+.card_data {
+  display: flex;
+  justify-content: space-between;
+}
